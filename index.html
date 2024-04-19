@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portifolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3ed909dc8f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="IMAGES/logo.png" alt="" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer / Graphic Desginer</p>
+          <h1>Hi, I'm <span>Kondwani</span> <br />Padyera From Malawi</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------ABOUT------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMAGES/aboutUs.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              fuga maxime voluptates optio velit deserunt eaque eveniet eum
+              suscipit obcaecati? Magnam, iure? Blanditiis quaerat cum delectus
+              adipisci beatae, quisquam quam.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Developing business,
+                  instutition and portfolio websites
+                </li>
+                <li>
+                  <span>Graphic Designing</span><br />Designing posters, flyers,
+                  business cards, logos and e.t.c
+                </li>
+                <li>
+                  <span>App Development</span><br />Developing android apps for
+                  companies, institutions and individuals
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Developing business,
+                  instutition and portfolio websites
+                </li>
+                <li>
+                  <span>Graphic Designing</span><br />Designing posters, flyers,
+                  business cards, logos and e.t.c
+                </li>
+                <li>
+                  <span>App Development</span><br />Developing android apps for
+                  companies, institutions and individuals
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Banchelor of Science in
+                  Computer Science
+                </li>
+                <li>
+                  <span>2021</span><br />Certificate in web development from
+                  MHUB
+                </li>
+                <li>
+                  <span>2024</span><br />Certificate in Graphics Designing from
+                  UNIMA COMSOC
+                </li>
+                <li>
+                  <span>2023</span><br />Certificate in Java Programming from
+                  Sololearn
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------SERVICES-------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas
+              minima nisi saepe, molestiae at modi maiores pariatur placeat
+              quibusdam hic illo tempore, explicabo unde voluptatibus, iusto non
+              officia doloribus.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-bezier-curve"></i>
+            <h1>Graphics Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas
+              minima nisi saepe, molestiae at modi maiores pariatur placeat
+              quibusdam hic illo tempore, explicabo unde voluptatibus, iusto non
+              officia doloribus.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h1>App Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas
+              minima nisi saepe, molestiae at modi maiores pariatur placeat
+              quibusdam hic illo tempore, explicabo unde voluptatibus, iusto non
+              officia doloribus.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------PORTFOLIO------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="IMAGES/valentine.png" alt="" />
+            <div class="layer">
+              <h3>Business Artwork</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusantium odio dicta unde iusto minima nulla doloribus illo,
+                commodi laboriosam consectetur. Consectetur nesciunt expedita
+                voluptate nam quas! Eum cupiditate explicabo ipsa!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/password.png" alt="" />
+            <div class="layer">
+                <h3>Web Application</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium odio dicta unde iusto minima nulla doloribus illo,
+                  commodi laboriosam consectetur. Consectetur nesciunt expedita
+                  voluptate nam quas! Eum cupiditate explicabo ipsa!
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/text.jpg" alt="" />
+            <div class="layer">
+                <h3>Biography</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium odio dicta unde iusto minima nulla doloribus illo,
+                  commodi laboriosam consectetur. Consectetur nesciunt expedita
+                  voluptate nam quas! Eum cupiditate explicabo ipsa!
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+        </div>
+        <a href="" class="btn">See More</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
